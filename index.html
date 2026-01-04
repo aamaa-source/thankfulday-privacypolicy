@@ -135,7 +135,7 @@
       <p class="note">
         If you have questions, contact us at:
         <a href="mailto:your.app.support@proton.me">your.app.support@proton.me</a>
-        <span class="note">(replace with your real support email)</span>
+ 
       </p>
     </div>
   </header>
@@ -251,4 +251,26 @@
       </p>
 
       <h2>Contact</h2>
-      <
+      <p>
+        If you have questions about privacy in Taskful Day, contact:
+        <a href="mailto:your.app.support@proton.me">your.app.support@proton.me</a>
+        <span class="note">(replace with your real support email)</span>
+      </p>
+
+      <h3>Optional: App Store Privacy Nutrition Labels</h3>
+      <p class="note">
+        Your App Store “Privacy” labels should reflect your actual implementation. If Taskful Day does not collect
+        data for tracking and does not use third-party analytics, select the appropriate “Data Not Collected” options.
+      </p>
+
+      <footer>
+        © <span id="year"></span> Taskful Day. All rights reserved.
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
